@@ -1,0 +1,33 @@
+.header {
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 22, 70);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.icon {
+    height: 70px;
+    margin-bottom: 10px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.secoes {
+    display: flex;
+    gap: 3rem;
+    font-size: 0.8rem;
+}
+.secoes a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.secoes a:hover {
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
